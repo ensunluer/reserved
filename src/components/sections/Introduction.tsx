@@ -1,7 +1,6 @@
 import ScrollAnimation from "react-animate-on-scroll";
 import { Link } from "react-router-dom";
 
-
 export const Introduction = () => {
 	return (
 		<section id="introduction" className="introduction section is-medium">
@@ -14,7 +13,11 @@ export const Introduction = () => {
 									Hello, I'm <span className="blue-text">Kleuize</span>.
 								</h1>
 								<p className="description">Coming soon...</p>
-								<a href="https://www.instagram.com/kleuize/" target="_blank" className="button">
+								<a
+									href="https://instagram.com/kleuize?igshid=MWI4MTIyMDE="
+									target="_blank"
+									className="button"
+								>
 									Instagram
 									<span>→</span>
 								</a>
